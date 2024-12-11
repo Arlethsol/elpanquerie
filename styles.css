@@ -138,6 +138,39 @@ footer {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* Sección Pedidos Especiales */
+.pedidos-especiales {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.pedidos-especiales p {
+    margin-bottom: 20px;
+}
+
+/* Botón de Pedidos Especiales */
+.boton-pedidos {
+    display: inline-block;
+    background-color: #d16c00;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.boton-pedidos:hover {
+    background-color: #a35400;
+    color: white;
+}
 
 /* Estilos del Formulario */
 form {
