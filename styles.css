@@ -12,23 +12,40 @@ header {
     padding: 10px 0;
 }
 /* Ajustes para el logo */
-.logo {
-    height: 50px; /* Ajusta la altura del logo según sea necesario */
-    margin-right: 15px; /* Espaciado entre el logo y la lista de navegación */
-}
-
-/* Ajustes adicionales para centrar elementos en la barra */
 .navbar {
+    background-color: #f9a825; /* Color de fondo */
+    padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px; /* Espaciado horizontal */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.nombre-marca {
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Contenedor del logo y el nombre */
+.logo-marca {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-marca img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px; /* Espaciado entre logo y texto */
+}
+
+.logo-marca .marca-nombre {
     font-size: 18px;
     font-weight: bold;
     color: #fff;
-    margin-left: 10px;
 }
 .navbar ul {
     display: flex;
